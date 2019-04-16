@@ -1,0 +1,6 @@
+[submodule "dataviz-with-python-and-js"]
+	path = dataviz-with-python-and-js
+	url = https://github.com/Kyrand/dataviz-with-python-and-js.git
+[submodule "nobel_viz"]
+	path = nobel_viz
+	url = https://github.com/steeznation16/nobel_viz.git
