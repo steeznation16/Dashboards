@@ -74,7 +74,6 @@ class NWinnerSpider(scrapy.Spider):
                 item[prop['name']] = sel[0].extract()
         yield item
 
-
 def get_persondata(table, item):
     fields = ['Date of birth', 'Place of birth', 'Date of death', 'Place of death']
     for tr in table.xpath('tr'):
